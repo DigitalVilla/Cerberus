@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+
+<head>
+  <title>Welcome to Quantifi!</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    body,
+    table,
+    td,
+    a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    /* RESET STYLES */
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
+
+    table {
+      border-collapse: collapse !important;
+    }
+
+    body {
+      height: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+    }
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* GMAIL BLUE LINKS */
+    u+#body a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
+
+    /* SAMSUNG MAIL BLUE LINKS */
+    #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
+
+    /* Universal styles for links and stuff */
+    a {
+      color: #00a9e0;
+    }
+
+    a:hover {
+      color: #08c1ff;
+      text-decoration: none;
+    }
+
+    a.button:hover {
+      background-color: #08c1ff !important;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+      .mobile {
+        width: 100% !important;
+      }
+
+      h1 {
+        font-size: 24px !important;
+      }
+    }
+  </style>
+</head>
+
+<body id="body" style="margin: 0 !important; padding: 0 !important;">
+  <!-- Preview text for the inbox -->
+  <div style="display: none; max-height: 0; overflow: hidden;">
+    Welcome to Quantifi! what to expect and login credentials.
+  </div>
+
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+    <tr>
+      <td align="center">
+        <table border="0" class="mobile" cellpadding="0" cellspacing="0" role="presentation" width="600"
+          style="background-color: #ffffff; color: #858585; font-family: sans-serif; font-size: 17px; line-height: 24px; margin: 0; padding: 0;">
+
+          <!-- Logo image -->
+          <tr>
+            <td style="padding: 60px 20px 20px 20px;">
+              <%= email_image_tag 'quantifi-logo.png' , width: "120" , alt:"Quantifi Logo", style:"display: block;" %>
+            </td>
+          </tr>
+
+          <!-- Headline -->
+          <tr>
+            <td style="padding: 20px;">
+              <h1 style="margin: 0; color:#858585; font-weight: 400; font-size: 26px; text-align: center;">
+                Hi <%= @resource.first_name %>, Welcome to Quantifi!</h1>
+            </td>
+          </tr>
+
+          <!-- Hero Image -->
+          <tr>
+            <td align="center" style="padding: 20px;">
+              <%= email_image_tag 'admin_boy.png' , width: "170" , alt:"Quantifi's representative",
+                style:"border-radius: 4px; display: block; max-width: 170px; min-width: 100px; width: 100%;" %>
+            </td>
+          </tr>
+
+          <!-- Body Intro -->
+          <tr>
+            <td style="padding: 20px;">
+              <p style="margin: 0 0 20px 0;">I’m the Director of Dealer Relations and am here to help you get to know us
+                better and start closing deals. I’ll send you a text right away with my work number; texting is the best
+                way to reach me - please save that number.
+              </p>
+              <p style="margin: 0 0 40px 0;">We’re a little different than what you’re used to. Our income verification
+                is 100% digital & automated - meaning you can close deals fast. We accept all types of income and by
+                looking at bank accounts, we can offer profitable, low rate approvals that you won’t get from
+                traditional lenders. If you have a credit approval pending income, we are great to help speed up the
+                deal!
+              </p>
+
+              <div style="margin: auto; height: 2px; width: 200px; background-color: #A2DFF3;"></div>
+              <!-- <hr> -->
+            </td>
+          </tr>
+
+          <!-- Body content -->
+          <tr>
+            <td style="padding: 10px 20px 20px 20px;">
+
+              <!-- section 1 -->
+              <h2 style="color:#585858; font-weight: 400; font-size: 20px;">Key Documents</h2>
+              <p style="margin: 0 0 40px 0;">Please review and save our <a
+                  href="https://quantifi.ca/documents/quantifi_loan_process_faqs.pdf">Lending Guidelines FAQ</a> and <a
+                  href="https://quantifi.ca/resources/rate_sheet.pdf">Rate Sheet</a> documents. These include
+                information on how our systems work, approval
+                guidelines and an understanding of applicant profiles we can immediately help you obtain approvals on.
+              </p>
+
+              <!-- section 2 -->
+              <h2 style="color:#585858; font-weight: 400; font-size: 20px;">Accessing the portal</h2>
+              <p>For the best experience, use Google Chrome. Access the portal at
+                <a href="https://app.quantifi.ca/">app.quantifi.ca</a> using the below <strong>login
+                  credentials:</strong>
+              </p>
+              <p style="margin: 0 0 40px 0;">
+                Username <strong style="margin:0 0 0 20px;">
+                  <%= @resource.email %>
+                </strong>
+                <br>
+                Password <strong style="margin:0 0 0 24px;">Follow the link at the bottom of this email</strong>
+              </p>
+
+              <!-- section 3 -->
+              <h2 style="color:#585858; font-weight: 400; font-size: 20px;">Here’s what you can expect when you first
+                login:</h2>
+              <p style="margin: 0 0 40px 0;"> <strong> 1.</strong> A short animation with some more information about
+                how we buy, and what makes us different. <strong>Continue to scroll down on your mouse to keep playing
+                  the
+                  animation.</strong>
+                <br>
+                <strong> 2.</strong> A Series of small pop-ups will guide you around the portal with tips about where to
+                click and actions to consider. (Ex. How to add an Application, Adding a Co-Applicant)
+              </p>
+
+              <!-- section 4 -->
+              <h2 style="color:#585858; font-weight: 400; font-size: 20px;">Adding Users at your Dealership</h2>
+              <p style="margin: 0 0 40px 0;">Access to the Manage Users Tab <strong> (top right drop-down menu in the
+                  portal) </strong> will allow you to add users and control who has access to the portal and can submit
+                deals. You may also activate and de-activate accounts there.
+              </p>
+
+              <!-- section 5 -->
+              <h2 style="color:#585858; font-weight: 400; font-size: 20px;">Deal Escalation & Communications</h2>
+              <p> <strong>1.</strong> Need to talk? Text, emailing us on <a
+                  href="mailto:income@quantifi.ca">income@quantifi.ca</a> and dealer
+                chat in the portal are the quickest options.
+                <br>
+                <strong>2.</strong> Once you have an approval, please always submit a worksheet. You can use the
+                <strong>request new terms button</strong> once the worksheet is saved to let us know which terms you are
+                looking for. The deal will be escalated and reviewed right away.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Button -->
+          <tr>
+            <td style="padding: 20px;">
+              <div style="text-align: center;">
+                <!-- CTA generated by buttons.cm -->
+                <div>
+                  <!--[if mso]>
+                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="<%= accept_invitation_url(@resource, :invitation_token => @token) %>" style="height:40px;v-text-anchor:middle;width:250px;" arcsize="50%" stroke="f" fillcolor="#00A9E0">
+                    <w:anchorlock/>
+                    <center>
+                  <![endif]-->
+                  <a class="button" href="<%= accept_invitation_url(@resource, :invitation_token => @token) %>"
+                    style="background-color:#00A9E0;border-radius:30px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:18px;font-weight:500;line-height:45px;text-align:center;text-decoration:none;width:370px;-webkit-text-size-adjust:none;">Create
+                    Password & Access Portal</a>
+                  <!--[if mso]>
+                    </center>
+                  </v:roundrect>
+                <![endif]-->
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding: 10px 20px; font-size: 18px;">
+              <p>
+                <strong>Samer Khatib</strong><br>
+                Director of Dealer Relations<br /><br>
+                Quantifi Inc. | <a href="https://quantifi.ca/">quantifi.ca</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
